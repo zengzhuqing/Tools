@@ -67,6 +67,11 @@ let &guicursor = &guicursor . ",a:blinkon0"
 :set shiftwidth=4
 :set expandtab
 
+"Chinese 
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+
 "TagList configuration
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Auto_Open = 1

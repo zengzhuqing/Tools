@@ -1,0 +1,3 @@
+USE TIPS:
+1.To definitely be able to login using https protocol, you should first set your authentication credential to the git Remote URI:
+git remote set-url origin https://yourusername@github.com/user/repo.git

@@ -66,7 +66,7 @@ let &guicursor = &guicursor . ",a:blinkon0"
 :set tabstop=4
 :set shiftwidth=4
 :set expandtab
-
+:set nu
 "Chinese 
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8

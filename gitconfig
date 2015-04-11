@@ -1,0 +1,23 @@
+[user]
+	email = zengzhuqing@foxmail.com
+	name = Zhuqing
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	log = auto
+	interactive = auto
+	ui = true
+	pager = true
+[alias]
+	ci = commit
+	st = status
+	co = checkout
+	br = branch
+	ls = log --oneline
+	di = diff
+	sh = show
+	df = diff
+	lg = log -p
+[core]
+	editor = vim

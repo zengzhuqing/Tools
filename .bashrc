@@ -6,4 +6,5 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+# disable ssh graphic password input dialog
 unset SSH_ASKPASS

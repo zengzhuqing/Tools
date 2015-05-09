@@ -17,7 +17,6 @@ if has("autocmd")
   autocmd!
   " In text files, always limit the width of text to 78 characters
   " autocmd BufRead *.txt set tw=78
-  " When editing a file, always jump to the last cursor position
   autocmd BufReadPost *
   \ if line("'\"") > 0 && line ("'\"") <= line("$") |
   \   exe "normal! g'\"" |
@@ -26,7 +25,8 @@ if has("autocmd")
   autocmd BufNewFile,BufReadPre /media/*,/run/media/*,/mnt/* set directory=~/tmp,/var/tmp,/tmp
   " start with spec file template
   autocmd BufNewFile *.spec 0r /usr/share/vim/vimfiles/template.spec
-  augroup END
+  " When editing a file, always jump to the last cursor position
+  " augroup END
 endif
 
 if has("cscope") && filereadable("/usr/bin/cscope")
